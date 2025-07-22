@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navDashboard"
+            android:icon="@drawable/home"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/navMyProfile"
+            android:icon="@drawable/profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/navMyOrders"
+            android:icon="@drawable/orders"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/navChangePin"
+            android:icon="@drawable/change_pin"
+            android:title="Change Pin" />
+        <item
+            android:id="@+id/navContactUs"
+            android:icon="@drawable/contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/navLogout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+        <item
+            android:id="@+id/navLogin"
+            android:icon="@drawable/login"
+            android:title="Login" />
+    </group>
+
+    <!--<item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/navAppInfo"
+                android:icon="@drawable/menu_info"
+                android:title="App Info" />
+            <item
+                android:id="@+id/navHelp"
+                android:icon="@drawable/menu_faq"
+                android:title="Help &amp; FAQ" />
+            <item
+                android:id="@+id/navTerms"
+                android:icon="@drawable/menu_terms"
+                android:title="Terms &amp; Conditions" />
+            <item
+                android:id="@+id/navContactUs"
+                android:icon="@drawable/menu_contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/navReferFriend"
+                android:icon="@drawable/menu_refer_frnd"
+                android:title="Refer a Friend" />
+        </menu>
+    </item>-->
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cf3034</color>
+    <color name="colorPrimaryDark">#762625</color>
+    <color name="colorAccent">#393635</color>
+    <color name="colorPrimaryTransparent">#AAcf3034</color>
+
+    <color name="Green">#06920C</color>
+    <color name="textBackground">#fbe9e7</color>
+    <color name="listBackground">#552d4e77</color>
+    <color name="transparent">#00000000</color>
+    <color name="blackTransDD">#DD000000</color>
+    <color name="blackTransBB">#BB000000</color>
+    <color name="blackTransAA">#AA000000</color>
+    <color name="blackTrans80">#80000000</color>
+    <color name="blackTrans60">#60000000</color>
+    <color name="blackTrans30">#30000000</color>
+    <color name="blackTrans10">#10000000</color>
+    <color name="blackBG">#242728</color>
+    <color name="blackBlock">#383838</color>
+    <color name="black">#000000</color>
+    <color name="lightBlack">#262628</color>
+    <color name="blackGray">#585858</color>
+    <color name="darkgray">#808080</color>
+    <color name="gray">#9b9b9b</color>
+    <color name="darkSilver">#A9A9A9</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="lightGray">#D3D3D3</color>
+    <color name="whiteGray">#ececec</color>
+    <color name="betweenGrayWhite">#EEEEEE</color>
+    <color name="grayWhite">#f6f6f6</color>
+    <color name="offWhite">#f5f5f5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteTransparent">#33ffffff</color>
+    <color name="whiteTransparentAA">#AAffffff</color>
+    <color name="whiteTrans">#DDffffff</color>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/_5sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <LinearLayout
+            android:id="@+id/llTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.madhavsteel.views.MyTextViewSemiBold
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:textColor="@color/lightBlack" />
+
+                <com.madhavsteel.views.MyTextView
+                    android:id="@+id/tvContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:hint="9876543210"
+                    android:textColor="@color/lightBlack" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivEdit"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/box_purple_background_oval"
+                android:padding="@dimen/_6sdp"
+                android:src="@drawable/contact"
+                android:tint="@color/white" />
+
+            <View
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5sdp" />
+
+            <ImageView
+                android:id="@+id/ivDelete"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/box_yellow_background_oval"
+                android:padding="@dimen/_6sdp"
+                android:src="@drawable/ic_location"
+                android:tint="@color/white" />
+
+        </LinearLayout>
+
+        <com.madhavsteel.views.MyTextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="@dimen/_5sdp"
+            android:drawableTint="@color/colorAccent"
+            android:hint="address"
+            android:textColor="@color/lightBlack" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

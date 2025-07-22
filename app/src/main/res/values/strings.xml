@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ashapuri ERP</string>
+
+    <string name="contact">+91 9825680632</string>
+    <string name="email">madhavsteel2019@gmail.com</string>
+
+    <string name="default_notification_channel_id">MSIERP</string>
+</resources>

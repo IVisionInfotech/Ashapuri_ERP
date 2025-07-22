@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.QuotationActivity">
+
+    <include layout="@layout/toolbar_primary" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_7sdp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_7sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:contentPadding="@dimen/_3sdp">
+
+                <com.madhavsteel.views.MyEditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:backgroundTint="@color/transparent"
+                    android:drawableLeft="@drawable/ic_user"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:drawableTint="@color/lightBlack"
+                    android:hint="Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textColor="@color/lightBlack" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_7sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:contentPadding="@dimen/_3sdp">
+
+                <com.madhavsteel.views.MyEditText
+                    android:id="@+id/etMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:backgroundTint="@color/transparent"
+                    android:drawableLeft="@drawable/ic_phone"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:drawableTint="@color/lightBlack"
+                    android:hint="Mobile"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:textColor="@color/lightBlack" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_7sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:contentPadding="@dimen/_3sdp">
+
+                <com.madhavsteel.views.MyEditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:backgroundTint="@color/transparent"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:drawableTint="@color/lightBlack"
+                    android:hint="Email"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/lightBlack" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_7sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:contentPadding="@dimen/_3sdp">
+
+                <com.madhavsteel.views.MyEditText
+                    android:id="@+id/etAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:backgroundTint="@color/transparent"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:drawableTint="@color/lightBlack"
+                    android:gravity="top"
+                    android:hint="Address"
+                    android:imeOptions="actionNext"
+                    android:lines="3"
+                    android:textColor="@color/lightBlack" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_7sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:contentPadding="@dimen/_3sdp">
+
+                <com.madhavsteel.views.MyEditText
+                    android:id="@+id/etCompanyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:backgroundTint="@color/transparent"
+                    android:drawableLeft="@drawable/ic_company"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:drawableTint="@color/lightBlack"
+                    android:hint="Company name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textColor="@color/lightBlack" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_7sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:contentPadding="@dimen/_3sdp">
+
+                <com.madhavsteel.views.MyEditText
+                    android:id="@+id/etGSTNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:backgroundTint="@color/transparent"
+                    android:drawableLeft="@drawable/ic_gst_no"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:drawableTint="@color/lightBlack"
+                    android:hint="GST No"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textColor="@color/lightBlack" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_7sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:contentPadding="@dimen/_3sdp">
+
+                <com.madhavsteel.views.MyEditText
+                    android:id="@+id/etCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:backgroundTint="@color/transparent"
+                    android:drawableLeft="@drawable/ic_location_city"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:drawableTint="@color/lightBlack"
+                    android:hint="City"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textColor="@color/lightBlack" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_7sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:contentPadding="@dimen/_3sdp">
+
+                <com.madhavsteel.views.MyEditText
+                    android:id="@+id/etState"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:backgroundTint="@color/transparent"
+                    android:drawableLeft="@drawable/ic_location_city"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:drawableTint="@color/lightBlack"
+                    android:hint="State"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:textColor="@color/lightBlack" />
+
+            </androidx.cardview.widget.CardView>
+
+            <com.madhavsteel.views.MyTextViewSemiBold
+                android:id="@+id/tvSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:background="@drawable/primary_background"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/_10sdp"
+                android:text="Add Customer"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

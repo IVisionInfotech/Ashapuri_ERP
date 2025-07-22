@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.GeneratePinActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/steel_bg_image" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blackTransDD" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo_white" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.madhavsteel.views.MyTextViewSemiBold
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Generate Pin"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_20sdp" />
+
+                        <com.madhavsteel.views.MyTextViewSemiBold
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:text="Enter 4 Digit Pin"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15sdp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_50sdp"
+                            android:layout_marginRight="@dimen/_50sdp"
+                            android:orientation="horizontal">
+
+                            <com.madhavsteel.views.MyEditText
+                                android:id="@+id/etPin11"
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pin_box_login"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:padding="@dimen/_6sdp"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_15sdp" />
+
+                            <com.madhavsteel.views.MyEditText
+                                android:id="@+id/etPin12"
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pin_box_login"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:padding="@dimen/_6sdp"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_15sdp" />
+
+                            <com.madhavsteel.views.MyEditText
+                                android:id="@+id/etPin13"
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pin_box_login"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:padding="@dimen/_6sdp"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_15sdp" />
+
+                            <com.madhavsteel.views.MyEditText
+                                android:id="@+id/etPin14"
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pin_box_login"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:padding="@dimen/_6sdp"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_15sdp" />
+
+                        </LinearLayout>
+
+                        <com.madhavsteel.views.MyTextViewSemiBold
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:text="Enter 4 Digit Confirm Pin"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15sdp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_50sdp"
+                            android:layout_marginRight="@dimen/_50sdp"
+                            android:orientation="horizontal">
+
+                            <com.madhavsteel.views.MyEditText
+                                android:id="@+id/etPin21"
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pin_box_login"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:padding="@dimen/_6sdp"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_15sdp" />
+
+                            <com.madhavsteel.views.MyEditText
+                                android:id="@+id/etPin22"
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pin_box_login"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:padding="@dimen/_6sdp"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_15sdp" />
+
+                            <com.madhavsteel.views.MyEditText
+                                android:id="@+id/etPin23"
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pin_box_login"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:padding="@dimen/_6sdp"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_15sdp" />
+
+                            <com.madhavsteel.views.MyEditText
+                                android:id="@+id/etPin24"
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pin_box_login"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:padding="@dimen/_6sdp"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_15sdp" />
+
+                        </LinearLayout>
+
+                        <com.madhavsteel.views.MyTextViewSemiBold
+                            android:id="@+id/tvGeneratePin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_25sdp"
+                            android:layout_marginTop="@dimen/_30sdp"
+                            android:layout_marginRight="@dimen/_25sdp"
+                            android:background="@drawable/white_background"
+                            android:gravity="center_horizontal"
+                            android:padding="@dimen/_10sdp"
+                            android:text="Generate Pin"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_16sdp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

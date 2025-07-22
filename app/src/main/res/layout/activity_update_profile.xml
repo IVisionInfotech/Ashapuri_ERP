@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_primary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:orientation="vertical">
+
+            <com.madhavsteel.views.MyEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_45sdp"
+                android:hint="Username"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="@color/lightBlack"
+                android:textSize="@dimen/_13sdp" />
+
+            <com.madhavsteel.views.MyEditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:hint="Email"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="@color/lightBlack"
+                android:textSize="@dimen/_13sdp" />
+
+            <com.madhavsteel.views.MyEditText
+                android:id="@+id/etContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:hint="Contact"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:textColor="@color/lightBlack"
+                android:textSize="@dimen/_13sdp" />
+
+            <com.madhavsteel.views.MyTextViewSemiBold
+                android:id="@+id/tvUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_45sdp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/_12sdp"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

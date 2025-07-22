@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Disha/Android Projects/Madhav Steel Project 142/Madhav Steel ERP/app/src/main/res/layout/activity_forgot_pin.xml" value="0.1" />
+        <entry key="..\:/Disha/Android Projects/Madhav Steel Project 142/Madhav Steel ERP/app/src/main/res/layout/activity_generate_pin.xml" value="0.1" />
+        <entry key="..\:/Disha/Android Projects/Madhav Steel Project 142/Madhav Steel ERP/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Disha/Android Projects/Madhav Steel Project 142/Madhav Steel ERP/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
